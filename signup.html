@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieMatch - Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body class="signup-page">
+  <nav>
+    <div class="nav-left">
+      <svg class="moviematch-logo" viewBox="0 0 200 50">
+        <text x="10" y="35" class="logo-text">MovieMatch</text>
+      </svg>
+    </div>
+  </nav>
+
+  <main class="signup-container">
+    <div class="signup-box">
+      <h1>Create Account</h1>
+      <div class="trial-banner">
+        <div class="trial-icon">🎉</div>
+        <div class="trial-text">
+          <h3>7 Days Free Trial</h3>
+          <p>Try MovieMatch risk-free. Cancel anytime during trial.</p>
+        </div>
+      </div>
+      <form class="signup-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <div class="plan-selection">
+          <h3>Choose your plan:</h3>
+          <div class="plan-options">
+            <label class="plan">
+              <input type="radio" name="plan" value="basic" checked>
+              <div class="plan-details">
+                <h4>Basic</h4>
+                <p>$8.99/month</p>
+                <ul class="plan-features">
+                  <li>HD streaming</li>
+                  <li>Watch on 1 device</li>
+                  <li>7 days free trial</li>
+                </ul>
+              </div>
+            </label>
+            <label class="plan">
+              <input type="radio" name="plan" value="standard">
+              <div class="plan-details">
+                <h4>Standard</h4>
+                <p>$13.99/month</p>
+                <ul class="plan-features">
+                  <li>Full HD streaming</li>
+                  <li>Watch on 2 devices</li>
+                  <li>7 days free trial</li>
+                  <li>Download for offline viewing</li>
+                </ul>
+              </div>
+            </label>
+            <label class="plan">
+              <input type="radio" name="plan" value="premium">
+              <div class="plan-details">
+                <h4>Premium</h4>
+                <p>$17.99/month</p>
+                <ul class="plan-features">
+                  <li>4K Ultra HD streaming</li>
+                  <li>Watch on 4 devices</li>
+                  <li>7 days free trial</li>
+                  <li>Download for offline viewing</li>
+                  <li>Priority customer support</li>
+                </ul>
+              </div>
+            </label>
+          </div>
+        </div>
+        <button type="submit">Start Free Trial</button>
+      </form>
+      <div class="trial-terms">
+        By starting your free trial, you agree to our Terms of Service and Privacy Policy. 
+        You won't be charged during the trial period. Cancel anytime before the trial ends.
+      </div>
+      <div class="login-link">
+        Already have an account? <a href="login.html">Sign in</a>
+      </div>
+    </div>
+  </main>
+  <script src="signup.js"></script>
+</body>
+</html>
